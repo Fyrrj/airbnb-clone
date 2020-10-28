@@ -1,0 +1,9 @@
+.home {
+  overflow: hidden;
+}
+
+.home__section {
+  display: flex;
+  flex-direction: row;
+  margin: 40px 0;
+}

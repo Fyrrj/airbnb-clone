@@ -1,0 +1,51 @@
+.banner {
+  height: 70vh;
+  position: relative;
+  background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2020/04/Airbnb_Bali_Bamboo_House.jpg")
+    center center;
+}
+
+.banner__info {
+  background: #000;
+  color: #fff;
+  padding: 25vh 50px 40px 50px;
+  width: 450px;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: #fff !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  height: 50px;
+  opacity: 0.8;
+  transition: 0.2s !important;
+  border-radius: 0 !important;
+  border-right: none !important;
+}
+
+.banner__searchButton:hover {
+  opacity: 1;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: #fff;
+  text-transform: inherit;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.banner__info > button:hover {
+  background-color: #fff;
+  color: #ff7779;
+}
+
+.banner__info > h5 {
+  margin-top: 20px;
+}
